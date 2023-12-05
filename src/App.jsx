@@ -1,10 +1,14 @@
-
+import MainContent from './components/MainContent'
+import Sidebar from './components/Sidebar'
+import './styles/components/app.sass'
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Portfolio</h1>
+    <div id="portfolio">
+      <h1>Cleiton Lahm</h1>
+      <Sidebar />
+      <MainContent />
     </div>
   )
 }
